@@ -45,7 +45,6 @@ class Board:
 			self.board[x-1][y-1] = self.cell_value
 			return True
 
-
 	def check(self):
 		self.cell_count = 0
 
@@ -103,6 +102,7 @@ board = Board()
 player_turn = 1
 clear = 'clear' # if windowns change to 'cls'
 
+# Start msg
 os.system(clear)
 start_msg()
 
